@@ -1,3 +1,3 @@
-https://en.wikipedia.org/wiki/List_of_information_graphics_software
+https://d3js.org/
 
-My tool will be for the graphics tools in software. Reason why is because i prefer looking at data in a visually coherent way. With some graphing tools i can do so easily.
+I chose D3 for my graphics tool because while it has a very steep learning curve it is very asyhetically pleasing to look at. I think i will enjoy this the most out of the other software tools
