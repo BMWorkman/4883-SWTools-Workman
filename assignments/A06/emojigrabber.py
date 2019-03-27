@@ -41,6 +41,7 @@ for emoji in soup.find_all("span",{"class":"emoji"}):
     image_path = emoji['data-src']
     print(url+image_path)
     saveImage(url,image_path,"emojis")
+#The reason why i have it as emojilist instead of emoji is because i forgot to name it emoji. So it is Emojilist.
     
     # save the image using requests library
     
