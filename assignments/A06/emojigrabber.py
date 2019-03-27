@@ -40,7 +40,7 @@ soup = BeautifulSoup(page.content, 'html.parser')
 for emoji in soup.find_all("span",{"class":"emoji"}):
     image_path = emoji['data-src']
     print(url+image_path)
-    saveImage(url,image_path,"emojilist")
+    saveImage(url,image_path,"emojis")
     
     # save the image using requests library
     
